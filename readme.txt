@@ -1,6 +1,6 @@
 === Change Author Base ===
 Contributors: harrylaurel
-Donate link: https://rathly.com/contact-us/
+Donate link: https://rathly.com/plugins/change-author-base/
 Tags: permalinks, author pages, seo, custom urls, url rewrite
 Requires at least: 6.7
 Tested up to: 6.7.1
@@ -91,3 +91,11 @@ Your author URLs will revert to the default WordPress structure (author/username
 
 = 1.0.1 =
 This version fixes the settings save functionality and adds a live URL preview. Upgrade recommended.
+
+== Additional Information ==
+
+* For support, visit: https://rathly.com/contact-us/
+* Documentation: https://rathly.com/plugins/change-author-base/
+* GitHub repository: https://github.com/harrylaurel/Change-Author-Base
+
+The plugin is actively maintained and tested with the latest versions of WordPress and PHP.
