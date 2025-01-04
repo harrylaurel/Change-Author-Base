@@ -4,14 +4,14 @@
  * Plugin URI: https://rathly.com/plugins/change-author-base/
  * Description: Customize your WordPress author URLs with any base you want. Change from 'author' to 'about-us', 'team', or any custom base easily.
  * Version: 1.0.1
- * Author: Harry Laurel
- * Author URI: https://rathly.com/about-us/harrylaurel/
+ * Author: Rathly
+ * Author URI: https://rathly.com/services/web-design/
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: change-author-base
  * 
  * @package Change_Author_Base
- * @author Harry Laurel
+ * @author Rathly
  * @copyright 2024 Rathly
  */
 
