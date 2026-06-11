@@ -3,9 +3,9 @@ Contributors: rathly
 Donate link: https://rathly.com/contact-us/
 Tags: permalinks, author pages, seo, custom urls, url rewrite
 Requires at least: 6.0
-Tested up to: 6.7.1
+Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,9 +76,14 @@ Your URLs go back to the WordPress default (author/username). Your content stays
 
 1. Change Author Base settings in the Permalinks page
 2. Example of custom author URL structure
-3. Plugin settings link in the plugins list
 
 == Changelog ==
+
+= 1.0.2 =
+* Confirmed compatibility with WordPress 7.0.
+* Hardening: added an explicit capability check (manage_options) before saving the author base.
+* Fixed a bug where plugin settings were deleted on deactivation; settings now persist across a deactivate/reactivate cycle and are removed only on uninstall.
+* Corrected version numbering for consistency across the plugin and readme.
 
 = 1.0.1 =
 * Fixed settings save functionality
@@ -89,6 +94,9 @@ Your URLs go back to the WordPress default (author/username). Your content stays
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Confirms compatibility with WordPress 7.0, adds a capability check when saving, and stops settings from being deleted on deactivation. Upgrade recommended.
 
 = 1.0.1 =
 This version fixes the settings save functionality and adds a live URL preview. Upgrade recommended.
