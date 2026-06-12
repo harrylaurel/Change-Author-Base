@@ -5,7 +5,7 @@ Tags: permalinks, author pages, seo, custom urls, url rewrite
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,9 @@ Your URLs go back to the WordPress default (author/username). Your content stays
 
 == Changelog ==
 
+= 1.0.3 =
+* Fixed a license mismatch: the LICENSE file now contains the GPLv2 text to match the GPLv2 declaration in the plugin header and readme.
+
 = 1.0.2 =
 * Confirmed compatibility with WordPress 7.0.
 * Hardening: added an explicit capability check (manage_options) before saving the author base.
@@ -94,6 +97,9 @@ Your URLs go back to the WordPress default (author/username). Your content stays
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+Corrects the bundled license file to GPLv2 to match the declared license. No functional changes.
 
 = 1.0.2 =
 Confirms compatibility with WordPress 7.0, adds a capability check when saving, and stops settings from being deleted on deactivation. Upgrade recommended.
